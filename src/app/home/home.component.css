@@ -1,0 +1,12 @@
+.container{
+  height: 95vh;
+  background-image:  url(../../assets/the-end.jpg);
+  position: relative;
+  background-size: cover;
+  background-position: top;
+  border-radius: 8px;
+}
+
+img{
+  height: fit-content;
+}
