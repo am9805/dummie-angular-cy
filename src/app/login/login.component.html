@@ -1,0 +1,39 @@
+<div style="text-align: center;" class="container">
+  <div class="row justify-content-md-center">
+    <img
+        src="../assets/51-curso-formacion-cypress-io-irontec.png"
+        width="260px"
+        height="140px"
+      />
+    <div class="login-container">
+
+      <form class="login-form">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Enter email"
+            data-cy="email-input"
+          />
+          <small id="emailHelp" class="form-text text-muted"
+            >Nunca compartiremos tu correo, don't worry</small
+          >
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Contraseña</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+            placeholder="Password"
+            data-cy="password-input"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary" data-cy="send-data" routerLink="/home">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
